@@ -1,0 +1,84 @@
+# Example: For loop to iterate through a list
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    print(num)
+
+# Output:
+# 1
+# 2
+# 3
+# 4
+# 5
+
+
+
+# Example: While loop to print numbers until a condition is met
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+# Output:
+# 0
+# 1
+# 2
+# 3
+# 4
+
+
+
+# Example: Simulated Do-While loop
+count = 0
+while True:
+    print(count)
+    count += 1
+    if count >= 5:
+        break
+
+# Output:
+# 0
+# 1
+# 2
+# 3
+# 4
+
+
+
+# Example: Else-if ladder to check multiple conditions
+age = 25
+if age < 18:
+    print("You are a minor.")
+elif 18 <= age < 65:
+    print("You are an adult.")
+else:
+    print("You are a senior citizen.")
+
+# Output: You are an adult.
+
+
+
+# Creating and filling an array
+array = [i for i in range(1, 11)]  # Array with elements from 1 to 10
+
+# Traversing using a for loop
+print("Traversing with a for loop:")
+for element in array:
+    print(element)
+
+# Traversing using a while loop
+print("\nTraversing with a while loop:")
+index = 0
+while index < len(array):
+    print(array[index])
+    index += 1
+
+# Traversing using enumerate
+print("\nTraversing with enumerate:")
+for index, element in enumerate(array):
+    print(f"Index: {index}, Element: {element}")
+
+
+
+# Create an array and fill it with elements directly
+array = [1, 2, 3, 4, 5]
+print(array)  # Output: [1, 2, 3, 4, 5]

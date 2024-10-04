@@ -1,0 +1,46 @@
+Packages needed (Lab 1 to Lab 7):
+1) pycryptodome
+2) cryptography
+3) sympy
+4) numpy
+
+
+Lab 1 (Basic Symmetric Key Ciphers):
+1) Additive, Multiplicative, Affine
+2) Vigenere, Autokey
+3) Playfair
+4) Hill
+5) Identify type of attack
+6) Brute force (affine)
+
+Lab 2 (Advanced Symmetric Key Ciphers):
+1) DES Encryption Decryption
+2) AES-128 Encryption Decryption
+3) Comparison of DES and AES-256
+4) Triple DES Encryption Decryption
+5) AES-192 Encryption Decryption
+
+Lab 3 (Asymmetric Key Ciphers):
+1) RSA Encryption
+2) ECC Encryption
+3) ElGamal Encryption
+4) File transfer using RSA and ECC of different size
+5) Diffie-Hellman key exchange between peers and measure time
+
+Lab 4 (Advanced Asymmetric Key Ciphers):
+1) RSA and Diffie-Hellman combo
+2) Rabin and logging
+
+Lab 5 (Hashing):
+1) simple Hash function
+2) server and client has hash matching
+3) comparison of md5, sha1, sha256 hashing, computational time and collision resistance
+
+Lab 6 (Digital Signatures):
+1) ElGamal, Schnorr asymmetric encryption standard
+2) Diffie-Hellman asymmetric encryption standard
+3) client-server based scenario
+
+Lab 7 (Partial Homomorphic Encryption):
+1) Paillier encryption scheme (Addition of two numbers)
+2) multiplicative homomorphic property of RSA encryption
