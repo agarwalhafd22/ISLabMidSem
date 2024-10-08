@@ -3,6 +3,7 @@ Packages needed (Lab 1 to Lab 7):
 2) cryptography
 3) sympy
 4) numpy
+5) crypto
 
 
 Lab 1 (Basic Symmetric Key Ciphers):
